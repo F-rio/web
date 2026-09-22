@@ -6,12 +6,12 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: Montserrat;
-  background: #bdc0c3;
+  background: #313E50;
 }
 
 .text-input {
   position: relative;
-  margin-top: 50px;s
+  margin-top: 50px;
 }
 .text-input input[type=text] {
   display: inline-block;
@@ -20,7 +20,7 @@ body {
   box-sizing: border-box;
   outline: none;
   border: 1px solid lightgray;
-  border-radius: 3px;s
+  border-radius: 3px;
   padding: 10px 10px 10px 100px;
   transition: all 0.1s ease-out;
 }
@@ -47,4 +47,15 @@ body {
 .text-input input[type=text]:focus {
   padding: 10px;
   transition: all 0.3s ease-out;
-  transition-delay: 0.2s;}
+  transition-delay: 0.2s;
+}
+.success {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.error {
+  margin-top: 20px;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}

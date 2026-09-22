@@ -5,8 +5,15 @@ inputfield.addEventListener('keypress', function(event) {
         const text = inputfield.value;
         if (text.trim() === '') {
             resultfield.innerText = 'Please enter some text.';
+            //add error class and remove success class
+            resultfield.classList.add('error');
+            resultfield.classList.remove('success');
         } else {
             resultfield.innerText = "You entered: " + text;
+            //remove error class and add success class
+            resultfield.classList.remove('error');
+            resultfield.classList.add('success');
+
             inputfield.value = '';
         }
     }
