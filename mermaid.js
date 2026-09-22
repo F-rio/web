@@ -1,0 +1,1 @@
+export * from 'https://unpkg.com/mermaid@10.0.0/dist/mermaid.esm.min.js';
